@@ -5,6 +5,7 @@ import 'package:flutter_card_io/flutter_card_io.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatefulWidget {
+  
   @override
   _MyAppState createState() => new _MyAppState();
 }
@@ -13,7 +14,7 @@ class _MyAppState extends State<MyApp> {
   Map<String, dynamic> _data = {};
 
   @override
-  initState() {
+  void initState() {
     super.initState();
   }
 
@@ -42,7 +43,7 @@ class _MyAppState extends State<MyApp> {
       return;
     }
 
-    if (!mounted) return;
+    if (!this.mounted) return;
 
     setState(() {
       _data = details;
