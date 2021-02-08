@@ -3,7 +3,7 @@ description: CardIO plugin for flutter
 version: 0.0.4
 author: ProcedurallyGenerated
 homepage: https://github.com/procedurallygenerated/flutter_card_io
-
+publish_to: none
 environment:
     sdk: ">=2.0.0-dev <3.0.0"
 
